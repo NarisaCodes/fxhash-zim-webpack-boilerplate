@@ -20,9 +20,9 @@ console.log(fxrand()) // deterministic PRNG function, use it instead of Math.ran
 //   "Inverted": true
 // }
 
-//Keep this at top of file for random seed. Feel free to change the number!
-let seed = rand(1000000);
-seedRandom(seed);
+// Keep this at top of file for random seed.
+// You can also hardcode a seed for a custom result, such as: seedRandom("abcde");
+seedRandom(fxhash);
 
 const frame = new Frame("FIT", 1024, 1024, "#222", "#222");
 frame.on("ready", () => {
