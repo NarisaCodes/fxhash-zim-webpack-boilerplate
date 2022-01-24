@@ -13,7 +13,7 @@ You will need to have [nodejs](https://nodejs.org/) installed.
 
 Clone or download this repository to your machine via 
 ```sh
-git clone https://github.com/Syth/fxhash-zimjs-webpack-boilerplate.git
+git clone https://github.com/Syth/fxhash-zim-webpack-boilerplate.git
 ```
 
 Install the required dependencies by running
