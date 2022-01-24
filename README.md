@@ -55,6 +55,5 @@ Once you've gotten your project zipped up, go to [FXHash Sandbox](https://fxhash
 * no network calls allowed (but calls to get resources from within your `public/` folder)
 * you must handle any viewport size (by implementing a response to the `resize` event of the `window`)
 * you **cannot use random number generation without a seed** (the same input hash must always yield the same output). The `fxrand` function does a very good job in that regard.
-================
 
 # Credits to both FXHash's team for making the webpack boilerplate and Dr. Abstract for making ZIM!
