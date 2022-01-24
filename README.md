@@ -1,7 +1,7 @@
-FXHash-ZimJS Webpack Biolerplate
+FXHash-ZIM Webpack Biolerplate
 ================
 
-This boilerplate was combined with both [FXHash webpack boilerplate](https://github.com/fxhash/fxhash-webpack-boilerplate) and [ZimJS's](https://zimjs.com/) newest libraries.
+This boilerplate was combined with both [FXHash webpack boilerplate](https://github.com/fxhash/fxhash-webpack-boilerplate) and [ZIM's](https://zimjs.com/) newest libraries.
 
 # How to use
 
@@ -57,4 +57,4 @@ Once you've gotten your project zipped up, go to [FXHash Sandbox](https://fxhash
 * you **cannot use random number generation without a seed** (the same input hash must always yield the same output). The `fxrand` function does a very good job in that regard.
 ================
 
-# Credits to both FXHash's team for making the webpack boilerplate and Dr. Abstract for making ZimJS!
+# Credits to both FXHash's team for making the webpack boilerplate and Dr. Abstract for making ZIM!
