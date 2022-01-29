@@ -24,7 +24,7 @@ console.log(fxrand()) // deterministic PRNG function, use it instead of Math.ran
 // You can also hardcode a seed for a custom result, such as: seedRandom("abcde");
 seedRandom(fxhash);
 
-const frame = new Frame("FIT", 1024, 1024, "#222", "#222");
+const frame = new Frame("fit", 1024, 1024, "#222", "#222");
 frame.on("ready", () => {
 	const stage = frame.stage;
 	let stageW = frame.width;
