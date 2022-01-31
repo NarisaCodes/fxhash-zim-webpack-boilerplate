@@ -28,7 +28,7 @@ const frame = new Frame("fit", 1024, 1024, "#222", "#222");
 frame.on("ready", () => {
 	const stage = frame.stage;
 	let stageW = frame.width;
-	let swageH = frame.height;
+	let stageH = frame.height;
 	
 	//your code goes here
 	
