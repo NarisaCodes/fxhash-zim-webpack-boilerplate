@@ -30,8 +30,13 @@ frame.on("ready", () => {
 	let stageW = frame.width;
 	let stageH = frame.height;
 	
-	//your code goes here
+	//Your code goes here
 	
+	
+	//Timeout feature for mint preview. You can change the amount of seconds if you wish.
+	timeout(3, () -> {
+		fxpreview();
+	});
 	
 	stage.update();
 });
