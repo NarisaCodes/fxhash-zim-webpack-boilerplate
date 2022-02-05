@@ -34,7 +34,7 @@ frame.on("ready", () => {
 	
 	
 	//Timeout feature for mint preview. You can change the amount of seconds if you wish.
-	timeout(3, () -> {
+	timeout(3, () => {
 		fxpreview();
 	});
 	
