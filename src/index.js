@@ -26,7 +26,7 @@ seedRandom(fxhash);
 // NEW IN ZIM ZIM 01:
 // A ready parameter has been added after outerColor and before assets.  This is a callback - or you can still use the "ready" event.  New globals are available for Frame, Stage and width and height.
 new Frame(FIT, 1024, 1024, light, dark, ready);
-function ready() }
+function ready() {
 	//Your code goes here
 	
 	
