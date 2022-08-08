@@ -20,16 +20,13 @@ console.log(fxrand()) // deterministic PRNG function, use it instead of Math.ran
 //   "Inverted": true
 // }
 
-// Keep this at top of file for random seed.
-// You can also hardcode a seed for a custom result, such as: seedRandom("abcde");
+//Keep this at top of file for random seed.
 seedRandom(fxhash);
 
-const frame = new Frame("fit", 1024, 1024, "#222", "#222");
-frame.on("ready", () => {
-	const stage = frame.stage;
-	let stageW = frame.width;
-	let stageH = frame.height;
-	
+// NEW IN ZIM ZIM 01:
+// A ready parameter has been added after outerColor and before assets.  This is a callback - or you can still use the "ready" event.  New globals are available for Frame, Stage and width and height.
+new Frame(FIT, 1024, 1024, light, dark, ready);
+function ready() }
 	//Your code goes here
 	
 	
@@ -37,6 +34,4 @@ frame.on("ready", () => {
 	timeout(3, () => {
 		fxpreview();
 	});
-	
-	stage.update();
-});
+}
